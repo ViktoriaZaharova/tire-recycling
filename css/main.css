@@ -69,10 +69,6 @@
           align-items: center;
   margin: 0 0 23px;
 }
-.about-products-box h3 {
-  font-size: 36px;
-  font-weight: 500;
-}
 .about-products-box__icon {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -163,4 +159,198 @@
 }
 .about-products-sizes p {
   font-weight: 500;
+}
+
+.where-to-sell-tires h2 {
+  max-width: 552px;
+  margin: 0 60px;
+}
+.where-to-sell-tires .text-description {
+  max-width: 450px;
+}
+
+.address-wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.address-wrapper h3 {
+  margin: 0 0 36px;
+}
+
+.address-box {
+  background: #fff;
+  margin: 0 auto 30px 0;
+  padding: 30px;
+  border-radius: 20px;
+  font-size: 24px;
+}
+.address-box__name {
+  font-weight: 500;
+  margin: 0 0 15px;
+}
+.address-box__tel {
+  margin: 10px 0 0;
+  color: #333;
+}
+.address-box__tel:hover {
+  color: #8CC63F;
+}
+.address-box__mail {
+  margin: 15px 0 0;
+}
+.address-box:last-child {
+  margin: 0 0 30px;
+}
+
+.callback-section {
+  margin: 48px 0 88px;
+}
+.callback-section h2 {
+  text-transform: uppercase;
+  max-width: 485px;
+}
+.callback-section h3 {
+  margin: 18px 0 64px;
+  font-weight: normal;
+}
+
+.callback-wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-radius: 20px;
+  background: #FFF;
+}
+
+.export-box {
+  width: calc(100% - 582px);
+  border-radius: 20px;
+  background: url("../img/callback-bg.jpeg") no-repeat center, #8CC63F;
+  background-size: cover;
+  background-blend-mode: screen, normal;
+  color: #000;
+  padding: 57px 75px 46px;
+  font-size: 24px;
+}
+.export-box .box-text {
+  max-width: 677px;
+}
+
+.callback-box {
+  max-width: 582px;
+  padding: 65px 60px 44px;
+  font-size: 24px;
+}
+.callback-box .phone {
+  font-size: 40px;
+  font-weight: 500;
+  color: #000;
+  margin: 0 0 34px;
+}
+.callback-box .phone:hover {
+  color: #8CC63F;
+}
+.callback-box .box-text {
+  max-width: 301px;
+}
+
+.consent {
+  font-size: 10px;
+  max-width: 141px;
+}
+
+.form {
+  max-width: 366px;
+  width: 100%;
+  padding: 10px 20px;
+}
+.form .box-text {
+  margin: 0 0 24px;
+}
+
+.form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.warranty h2 {
+  max-width: 803px;
+}
+.warranty .title-wrapper {
+  position: relative;
+  z-index: 1;
+  margin: 0 0 54px;
+}
+.warranty .title-wrapper::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  height: calc(100% - 93px - 93px);
+  left: 65px;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  width: calc(100% - 245px - 65px);
+  border-radius: 20px;
+  border: 1px solid #8CC63F;
+}
+.warranty .title-wrapper .warranty-img {
+  margin: 0 0 0 auto;
+  max-width: 390px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.warranty-icon {
+  margin: 0 70px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 122px;
+  width: 100%;
+}
+
+.warranty-box {
+  font-size: 36px;
+}
+.warranty-box h3 {
+  color: #8CC63F;
+  font-size: 64px;
+  font-weight: 500;
+  margin: 0 0 -5px;
 }

@@ -48,9 +48,6 @@
 		display: flex
 		align-items: center
 		margin: 0 0 23px
-	h3
-		font-size: 36px
-		font-weight: 500
 	&__icon
 		@include d-flex
 		width: 60px
@@ -95,3 +92,140 @@
 				min-width: 31px
 	p
 		font-weight: 500
+
+// where-to-sell-tires
+.where-to-sell-tires
+	h2
+		max-width: 552px
+		margin: 0 60px
+	.text-description
+		max-width: 450px
+
+.address-wrapper
+	width: 100%
+	display: flex
+	align-items: stretch
+	flex-wrap: wrap
+	h3
+		margin: 0 0 36px
+
+.address-box
+	background: #fff
+	margin: 0 auto 30px 0
+	padding: 30px
+	border-radius: 20px
+	font-size: 24px
+	&__name
+		font-weight: 500
+		margin: 0 0 15px
+	&__tel
+		margin: 10px 0 0
+		color: #333
+		&:hover
+			color: $accent
+	&__mail
+		margin: 15px 0 0
+	&:last-child
+		margin: 0 0 30px
+
+// callback-section
+.callback-section
+	margin: 48px 0 88px
+	h2
+		text-transform: uppercase
+		max-width: 485px
+	h3
+		margin: 18px 0 64px
+		font-weight: normal
+
+.callback-wrapper
+	width: 100%
+	display: flex
+	align-items: stretch
+	flex-wrap: wrap
+	border-radius: 20px
+	background: #FFF
+
+.export-box
+	width: calc(100% - 582px)
+	border-radius: 20px
+	background: url('../img/callback-bg.jpeg') no-repeat center, #8CC63F
+	background-size: cover
+	background-blend-mode: screen, normal
+	color: #000
+	padding: 57px 75px 46px
+	font-size: 24px
+	.box-text
+		max-width: 677px
+
+.callback-box
+	max-width: 582px
+	padding: 65px 60px 44px
+	font-size: 24px
+	.phone
+		font-size: 40px
+		font-weight: 500
+		color: #000
+		margin: 0 0 34px
+		&:hover
+			color: $accent
+	.box-text
+		max-width: 301px
+
+.consent
+	font-size: 10px
+	max-width: 141px
+
+.form
+	max-width: 366px
+	width: 100%
+	[type="submit"]
+	padding: 10px 20px
+	.box-text
+		margin: 0 0 24px
+
+.form-group
+	display: flex
+	align-items: center
+	justify-content: space-between
+	width: 100%
+
+// warranty
+.warranty
+	h2
+		max-width: 803px
+	.title-wrapper
+		position: relative
+		z-index: 1
+		// padding: 26px 0
+		margin: 0 0 54px
+		&::before
+			content: ''
+			position: absolute
+			z-index: -1
+			height: calc(100% - 93px - 93px)
+			left: 65px
+			top: 50%
+			transform: translate(0,-50%)
+			width: calc(100% - 245px - 65px)
+			border-radius: 20px
+			border: 1px solid #8CC63F
+		.warranty-img
+			margin: 0 0 0 auto
+			max-width: 390px
+			width: 100%
+			@include d-flex
+
+.warranty-icon
+	margin: 0 70px 0 0
+	@include d-flex
+	max-width: 122px
+	width: 100%
+
+.warranty-box
+	font-size: 36px
+	h3
+		color: $accent
+		font-size: 64px
+		font-weight: 500
+		margin: 0 0 -5px
