@@ -7,6 +7,7 @@ $('.go_to').click(function (e) {
 		$('html, body').animate({
 			scrollTop: $(scroll_el).offset().top
 		}, 500);
+		$('.navbar-menu.show').removeClass('show');
 	}
 	return false;
 });

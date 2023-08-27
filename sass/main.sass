@@ -156,6 +156,7 @@
 		max-width: 677px
 
 .callback-box
+	width: 100%
 	max-width: 582px
 	padding: 65px 60px 44px
 	.phone
@@ -273,7 +274,7 @@
 	background: #FFF
 	padding: 6px
 	padding: 8px
-	width: 196
+	width: 196px
 	height: 196px
 	img
 		width: 100%
@@ -327,6 +328,7 @@
 	width: 100%
 	height: 379px
 	border-radius: 20px
+	margin: 0 0 76px
 	@include d-flex
 	img
 		border-radius: 20px
@@ -466,6 +468,9 @@
 		height: 16px
 		background: url('../img/accordion-icon.svg') no-repeat center
 		background-size: 100%
+		
+.accordion-item:first-of-type .accordion-button
+	border-radius: 20px 20px 0 0		
 
 .accordion-body
 	padding: 20px 33px

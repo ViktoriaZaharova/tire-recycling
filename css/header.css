@@ -28,7 +28,7 @@ header .container {
   width: 100%;
   max-width: 100%;
 }
-.navbar-menu.collapse {
+.navbar-menu.collapse:not(.show) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
