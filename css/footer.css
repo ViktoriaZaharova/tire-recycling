@@ -1,21 +1,5 @@
-@font-face {
-  font-family: "Eastman";
-  font-weight: 400;
-  font-style: normal;
-  src: url("../fonts/Eastman/Eastman-Regular.eot");
-  src: url("../fonts/Eastman/Eastman-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Eastman/Eastman-Regular.woff") format("woff"), url("../fonts/Eastman/Eastman-Regular.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Eastman";
-  font-weight: 500;
-  font-style: normal;
-  src: url("../fonts/Eastman/Eastman-Medium.eot");
-  src: url("../fonts/Eastman/Eastman-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Eastman/Eastman-Medium.woff") format("woff"), url("../fonts/Eastman/Eastman-Medium.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Eastman";
-  font-weight: 700;
-  font-style: normal;
-  src: url("../fonts/Eastman/Eastman-Bold.eot");
-  src: url("../fonts/Eastman/Eastman-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Eastman/Eastman-Bold.woff") format("woff"), url("../fonts/Eastman/Eastman-Bold.ttf") format("truetype");
+footer {
+  margin: 134px 0 0;
+  background: #EDEDED;
+  padding: 54px 0 43px;
 }

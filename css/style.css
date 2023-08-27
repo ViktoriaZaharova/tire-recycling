@@ -59,7 +59,7 @@ table {
 }
 
 body {
-  font-size: 16px;
+  font-size: 24px;
   min-width: 320px;
   position: relative;
   line-height: normal;
@@ -215,6 +215,22 @@ button:hover, button:focus, .btn:hover, .btn:focus {
   width: 100%;
 }
 
+.btn-grey {
+  color: #fff;
+  background: #333;
+  -webkit-box-shadow: 0px 25px 35px 0px rgba(140, 198, 63, 0.2);
+          box-shadow: 0px 25px 35px 0px rgba(140, 198, 63, 0.2);
+}
+.btn-grey::before {
+  background: #8CC63F;
+}
+.btn-grey:hover {
+  color: #fff;
+}
+.btn-grey:hover::before {
+  width: 100%;
+}
+
 .svg-icon {
   display: inline-block;
   width: 100%;
@@ -278,10 +294,6 @@ a.color-accent:hover {
   color: #333;
 }
 
-.text-description {
-  font-size: 24px;
-}
-
 .title-wrapper {
   width: 100%;
   display: -webkit-box;
@@ -293,38 +305,4 @@ a.color-accent:hover {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: 0 0 70px;
-}
-
-.label-checkbox {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 14px;
-  margin: 15px 0 0;
-  line-height: 1.14;
-}
-
-.inp-check {
-  display: none;
-}
-
-.checkbox-custom {
-  margin: 0 12px 0 0;
-  position: relative;
-  border-radius: 6px;
-  background-color: #fff;
-  width: 16px;
-  height: 16px;
-  min-width: 16px;
-  cursor: pointer;
-}
-
-.inp-check:checked ~ .checkbox-custom {
-  background: #fff url("../img/check-black.svg") no-repeat center;
-  background-size: 8px;
 }
