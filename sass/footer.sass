@@ -4,5 +4,109 @@ footer
 	margin: 134px 0 0
 	background: #EDEDED
 	padding: 54px 0 43px
+	.logo-company
+		margin: 0 55px 0 0
+		max-width: 219px
+	.logo
+		margin: 0 0 50px
+		max-width: 219px
+		min-width: auto	
 
-	
+.footer-bottom
+	margin: 67px 0 0
+	font-size: 16px
+
+.developer-box
+	display: flex
+	align-items: center
+	margin: 0 0 0 auto
+	&__logo
+		margin: 0 0 0 8px
+		@include d-flex	
+
+.contacts-box
+	font-size: 24px
+	.phone
+		margin: 0 0 8px
+		font-size: 24px
+		font-weight: 500
+		
+
+
+.footer-menu
+	margin: 28px 0 21px
+	font-size: 16px
+	li
+		margin: 0 0 20px
+		&:last-child
+			margin: 0		
+		a
+			color: #414042
+			&:hover
+				color: $accent	
+
+.reception-points
+	width: 100%
+	display: flex
+	align-items: flex-start
+	flex-wrap: wrap
+	&__content
+		max-width: 380px
+		width: 100%
+		margin: 0 auto 0 0
+	h3
+		margin: 0 0 20px
+		font-size: 24px
+	.address-box
+		width: fit-content
+		font-size: 16px
+		padding: 20px
+		margin: 0 0 20px
+		&:last-child
+			margin: 0
+		&__name
+			margin: 0 0 10px
+		&__mail
+			margin: 10px 0 0
+	&__map
+		border-radius: 20px
+		height: 560px
+		max-width: 612px
+		width: 100%
+		iframe
+			width: 100%
+			height: 100%
+			border-radius: 20px		
+
+.footer-callback
+	width: 100%
+	display: flex
+	align-items: flex-start
+	flex-wrap: wrap
+	margin: 50px 0 0
+	&__content
+		max-width: 327px
+		font-size: 16px
+		color: #414042
+	h3
+		font-size: 24px
+		margin: 0 0 10px	
+	.form
+		max-width: none
+		display: flex
+		align-items: flex-start
+		width: fit-content
+		margin: 0 0 0 auto
+		label
+			width: 286px
+			min-width: 286px
+			max-width: none
+			margin: 0 22px 0 0
+		input
+			font-size: 20px
+			border: none
+		.form-group
+			margin: 0 0 0 22px
+		.consent
+			margin: 0 0 0 17px
+			max-width: 197px			
