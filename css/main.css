@@ -6,11 +6,75 @@
   position: relative;
   width: 100%;
   z-index: 1;
-  padding: 86px 98px;
+  padding: 86px 120px 86px 98px;
   color: #fff;
   border-radius: 20px;
   background: -webkit-gradient(linear, left top, right top, from(#000), to(rgba(0, 0, 0, 0))), url("../img/home-bg.png"), lightgray 50%/cover no-repeat;
   background: linear-gradient(90deg, #000 0%, rgba(0, 0, 0, 0) 100%), url("../img/home-bg.png"), lightgray 50%/cover no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.home-wrapper__callback {
+  margin: 0 0 0 auto;
+  border-radius: 20px;
+  background: #333;
+  max-width: 435px;
+  width: 100%;
+  padding: 30px;
+}
+.home-wrapper__callback .box-text {
+  font-size: 16px;
+}
+.home-wrapper .phone {
+  color: #fff;
+  margin: 0 0 5px;
+  font-size: 36px;
+}
+.home-wrapper .phone:hover {
+  color: #8CC63F;
+}
+.home-wrapper .form {
+  max-width: none;
+}
+.home-wrapper .form .box-text {
+  margin: 0 0 20px;
+  max-width: 329px;
+}
+.home-wrapper .form [type=submit] {
+  height: 47px;
+}
+.home-wrapper .form .consent {
+  color: #8CC63F;
+}
+.home-wrapper .form label {
+  margin: 0 0 20px;
+}
+.home-wrapper .form input {
+  height: 66px;
+  background: transparent;
+  color: #fff;
+  font-size: 20px;
+}
+.home-wrapper .form input::-webkit-input-placeholder {
+  color: #fff;
+}
+.home-wrapper .form input::-moz-placeholder {
+  color: #fff;
+}
+.home-wrapper .form input:-ms-input-placeholder {
+  color: #fff;
+}
+.home-wrapper .form input::-ms-input-placeholder {
+  color: #fff;
+}
+.home-wrapper .form input::placeholder {
+  color: #fff;
 }
 
 .home-box {

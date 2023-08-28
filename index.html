@@ -76,26 +76,48 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
-					<h1 class="home-wrapper">
-						<span class="home-box">
-							<span class="home-box__icon"><img src="img/home-icon1.svg" alt=""></span>
-							<span class="home-box__body">
-								Прием шин на утилизацию в Пензе
+					<div class="home-wrapper">
+						<h1 class="home-wrapper__content">
+							<span class="home-box">
+								<span class="home-box__icon"><img src="img/home-icon1.svg" alt=""></span>
+								<span class="home-box__body">
+									Прием шин на утилизацию в Пензе
+								</span>
 							</span>
-						</span>
-						<span class="home-box">
-							<span class="home-box__icon"><img src="img/home-icon2.svg" alt=""></span>
-							<span class="home-box__body">
-								От 1 шины до 200 тонн в месяц
+							<span class="home-box">
+								<span class="home-box__icon"><img src="img/home-icon2.svg" alt=""></span>
+								<span class="home-box__body">
+									От 1 шины до 200 тонн в месяц
+								</span>
 							</span>
-						</span>
-						<span class="home-box">
-							<span class="home-box__icon"><img src="img/home-icon3.svg" alt=""></span>
-							<span class="home-box__body">
-								Бесплатно, круглосуточно
+							<span class="home-box">
+								<span class="home-box__icon"><img src="img/home-icon3.svg" alt=""></span>
+								<span class="home-box__body">
+									Бесплатно, круглосуточно
+								</span>
 							</span>
-						</span>
-					</h1>
+						</h1>
+
+						<div class="home-wrapper__callback">
+							<a href="tel:+78412390067" class="phone">+7 (8412) 39-00-67</a>
+							<form action="" method="post" class="form">
+								<div class="box-text">
+									<p>Оставьте ваши данные и мы свяжемся с вами в ближайшее время</p>
+								</div>
+								<label>
+									<input type="text" placeholder="Имя" name="name">
+								</label>
+								<label>
+									<input type="text" placeholder="Телефон" name="phone" required>
+								</label>
+
+								<div class="form-group">
+									<button type="submit" class="btn btn-accent">оставить заявку</button>
+									<div class="consent">нажимая на кнопку вы соглашаетесь с политикой конфиденциальности</div>
+								</div>
+							</form>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -578,19 +600,19 @@
 						<div class="reception-points" id="reception-points">
 							<div class="reception-points__content">
 								<h3>Пункты приема шин в Пензе</h3>
-								<div class="address-box">
+								<div class="address-box js-tab-trigger" data-tab="tab1">
 									<div class="address-box__name">Пенза, ул. Аустрина, 100</div>
 									<div class="address-box__schedule">с 8:00 до 21:00</div>
 									<a href="tel:+78412584579" class="address-box__tel">8 8412 58 45 79</a>
 									<a href="mailto:info@utilpenza.ru" class="address-box__mail color-accent">info@utilpenza.ru</a>
 								</div>
-								<div class="address-box">
+								<div class="address-box js-tab-trigger" data-tab="tab2">
 									<div class="address-box__name">С. Усть Инза, ул. Родники, 6</div>
 									<div class="address-box__schedule">с 8:00 до 21:00</div>
 									<a href="tel:+78412584579" class="address-box__tel">8 8412 58 45 79</a>
 									<a href="mailto:info@utilpenza.ru" class="address-box__mail color-accent">info@utilpenza.ru</a>
 								</div>
-								<div class="address-box">
+								<div class="address-box js-tab-trigger" data-tab="tab3">
 									<div class="address-box__name">с. Средняя Елюзань, ул. Г. Камалы, 71</div>
 									<div class="address-box__schedule">с 8:00 до 21:00</div>
 									<a href="tel:+78412584579" class="address-box__tel">8 8412 58 45 79</a>
@@ -598,9 +620,21 @@
 								</div>
 							</div>
 							<div class="reception-points__map">
-								<iframe
-									src="https://yandex.ru/map-widget/v1/?ll=45.009612%2C53.236982&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoxNDg3MTAxOTY3EjrQoNC-0YHRgdC40Y8sINCf0LXQvdC30LAsINGD0LvQuNGG0LAg0JDRg9GB0YLRgNC40L3QsCwgMTAwIgoN2Ak0QhWr8lRC&z=16.79"
-									frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+								<div class="js-tab-content active" data-tab="tab1">
+									<iframe
+										src="https://yandex.ru/map-widget/v1/?ll=45.009612%2C53.236982&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoxNDg3MTAxOTY3EjrQoNC-0YHRgdC40Y8sINCf0LXQvdC30LAsINGD0LvQuNGG0LAg0JDRg9GB0YLRgNC40L3QsCwgMTAwIgoN2Ak0QhWr8lRC&z=16.79"
+										frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+								</div>
+								<div class="js-tab-content" data-tab="tab2">
+									<iframe
+										src="https://yandex.ru/map-widget/v1/?ll=45.813801%2C53.883638&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgo0NTE3NDg1NDU1EowB0KDQvtGB0YHQuNGPLCDQn9C10L3Qt9C10L3RgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwg0J3QuNC60L7Qu9GM0YHQutC40Lkg0YDQsNC50L7QvSwg0YHQtdC70L4g0KPRgdGC0Ywt0JjQvdC30LAsINGD0LvQuNGG0LAg0KDQvtC00L3QuNC60LgsIDYiCg1VQTdCFdiIV0I%2C&z=16.79"
+										frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+								</div>
+								<div class="js-tab-content" data-tab="tab3">
+									<iframe
+										src="https://yandex.ru/map-widget/v1/?ll=45.961798%2C53.040365&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgo0NTE3Mzk1NjQ3EqEB0KDQvtGB0YHQuNGPLCDQn9C10L3Qt9C10L3RgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwg0JPQvtGA0L7QtNC40YnQtdC90YHQutC40Lkg0YDQsNC50L7QvSwg0YHQtdC70L4g0KHRgNC10LTQvdGP0Y8g0JXQu9GO0LfQsNC90YwsINGD0LvQuNGG0LAg0JMuINCa0LDQvNCw0LvQsCwgNjkiCg3h2DdCFVUpVEI%2C&z=16.79"
+										frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -620,7 +654,7 @@
 								<label>
 									<input type="text" placeholder="Телефон" name="phone" required>
 								</label>
-							
+
 								<div class="form-group">
 									<button type="submit" class="btn btn-accent">оставить заявку</button>
 									<div class="consent">нажимая на кнопку вы соглашаетесь с политикой конфиденциальности</div>

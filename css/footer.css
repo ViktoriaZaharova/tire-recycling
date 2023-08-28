@@ -115,6 +115,19 @@ footer .logo {
   border-radius: 20px;
 }
 
+.js-tab-content {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.js-tab-content.active {
+  display: block;
+}
+
+.js-tab-trigger {
+  cursor: pointer;
+}
+
 .footer-callback {
   width: 100%;
   display: -webkit-box;

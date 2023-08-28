@@ -31,6 +31,9 @@
   h3 {
     font-size: 32px;
   }
+  .home-wrapper {
+    padding: 50px;
+  }
   .where-to-sell-tires h2 {
     max-width: 470px;
     margin: 0 40px;
@@ -146,6 +149,12 @@
   .footer-callback .form {
     margin: 20px 0 0;
   }
+  .footer-callback .form input {
+    height: 42px;
+  }
+  .home-wrapper__content {
+    max-width: 615px;
+  }
 }
 @media only screen and (max-width: 1200px) {
   .navbar-menu .navbar-nav .nav-item {
@@ -168,6 +177,18 @@
   }
   h3 {
     font-size: 30px;
+  }
+  .home-box {
+    font-size: 30px;
+  }
+  .home-wrapper__content {
+    max-width: 485px;
+  }
+  .home-wrapper__callback {
+    max-width: 380px;
+  }
+  .home-wrapper .phone {
+    font-size: 26px;
   }
   .about-products {
     margin: 60px 0;
@@ -397,8 +418,28 @@
     font-size: 30px;
     margin: 0 0 30px;
   }
-  .home-wrapper {
-    padding: 40px;
+  .home-box__icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 15px 0 0;
+  }
+  .home-wrapper__content {
+    max-width: none;
+  }
+  .home-wrapper__callback {
+    margin: 20px 0 0;
+    max-width: none;
+  }
+  .home-wrapper__callback .form {
+    margin: 0 auto;
+    max-width: 330px;
+  }
+  .home-wrapper__callback .form .box-text {
+    text-align: center;
+  }
+  .home-wrapper .phone {
+    font-size: 24px;
+    margin: 0 auto 10px;
   }
   .where-to-sell-tires .text-description {
     max-width: none;
@@ -605,7 +646,13 @@
     margin: 0 20px 0 0;
   }
   .home-wrapper {
-    padding: 30px;
+    padding: 20px;
+  }
+  .home-wrapper .phone {
+    font-size: 18px;
+  }
+  .home-wrapper__callback .form input {
+    font-size: 18px;
   }
   .about-products-box {
     padding: 30px;

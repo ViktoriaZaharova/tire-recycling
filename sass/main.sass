@@ -9,10 +9,46 @@
 	position: relative
 	width: 100%
 	z-index: 1
-	padding: 86px 98px
+	padding: 86px 120px 86px 98px
 	color: #fff
 	border-radius: 20px
 	background: linear-gradient(90deg, #000 0%, rgba(0, 0, 0, 0.00) 100%), url('../img/home-bg.png'), lightgray 50% / cover no-repeat
+	display: flex
+	align-items: flex-start
+	flex-wrap: wrap
+	&__callback
+		margin: 0 0 0 auto
+		border-radius: 20px
+		background: #333
+		max-width: 435px
+		width: 100%
+		padding: 30px
+		.box-text
+			font-size: 16px
+	.phone
+		color: #fff
+		margin: 0 0 5px
+		font-size: 36px
+		&:hover
+			color: $accent
+	.form
+		max-width: none
+		.box-text
+			margin: 0 0 20px
+			max-width: 329px
+		[type="submit"]
+			height: 47px
+		.consent
+			color: $accent
+		label
+			margin: 0 0 20px
+		input
+			height: 66px
+			background: transparent
+			color: #fff
+			font-size: 20px
+			&::placeholder
+				color: #fff					
 
 .home-box
 	text-transform: uppercase
@@ -468,9 +504,9 @@
 		height: 16px
 		background: url('../img/accordion-icon.svg') no-repeat center
 		background-size: 100%
-		
+
 .accordion-item:first-of-type .accordion-button
-	border-radius: 20px 20px 0 0		
+	border-radius: 20px 20px 0 0
 
 .accordion-body
 	padding: 20px 33px

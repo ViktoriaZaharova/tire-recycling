@@ -10,7 +10,7 @@ footer
 	.logo
 		margin: 0 0 50px
 		max-width: 219px
-		min-width: auto	
+		min-width: auto
 
 .footer-bottom
 	margin: 67px 0 0
@@ -22,7 +22,7 @@ footer
 	margin: 0 0 0 auto
 	&__logo
 		margin: 0 0 0 8px
-		@include d-flex	
+		@include d-flex
 
 .contacts-box
 	font-size: 24px
@@ -30,8 +30,6 @@ footer
 		margin: 0 0 8px
 		font-size: 24px
 		font-weight: 500
-		
-
 
 .footer-menu
 	margin: 28px 0 21px
@@ -39,11 +37,11 @@ footer
 	li
 		margin: 0 0 20px
 		&:last-child
-			margin: 0		
+			margin: 0
 		a
 			color: #414042
 			&:hover
-				color: $accent	
+				color: $accent
 
 .reception-points
 	width: 100%
@@ -76,7 +74,17 @@ footer
 		iframe
 			width: 100%
 			height: 100%
-			border-radius: 20px		
+			border-radius: 20px
+
+.js-tab-content
+	width: 100%
+	height: 100%
+	display: none
+	&.active
+		display: block
+
+.js-tab-trigger
+	cursor: pointer		
 
 .footer-callback
 	width: 100%
@@ -90,7 +98,7 @@ footer
 		color: #414042
 	h3
 		font-size: 24px
-		margin: 0 0 10px	
+		margin: 0 0 10px
 	.form
 		max-width: none
 		display: flex
@@ -109,4 +117,4 @@ footer
 			margin: 0 0 0 22px
 		.consent
 			margin: 0 0 0 17px
-			max-width: 197px			
+			max-width: 197px
