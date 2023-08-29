@@ -340,6 +340,10 @@
   }
 }
 @media only screen and (max-width: 992px) {
+  header {
+    position: relative;
+    z-index: 10;
+  }
   .navbar-menu {
     position: fixed;
     right: -100%;
@@ -409,10 +413,6 @@
   .logo {
     min-width: auto;
     max-width: 250px;
-  }
-  header {
-    position: relative;
-    z-index: 5;
   }
   .home-box {
     font-size: 30px;
@@ -636,6 +636,17 @@
   }
 }
 @media only screen and (max-width: 576px) {
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background: #fff;
+  }
+  body {
+    padding: 110px 0 0;
+  }
   .home-box {
     font-size: 24px;
     margin: 0 0 20px;
@@ -649,7 +660,12 @@
     padding: 20px;
   }
   .home-wrapper .phone {
-    font-size: 18px;
+    font-weight: 500;
+    font-size: 22px;
+    margin: 0 auto 10px;
+  }
+  .home-wrapper__callback {
+    display: none;
   }
   .home-wrapper__callback .form input {
     font-size: 18px;

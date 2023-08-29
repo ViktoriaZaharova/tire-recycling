@@ -170,7 +170,7 @@
 		font-size: 30px
 
 	.home-box
-		font-size: 30px	
+		font-size: 30px
 
 	.home-wrapper
 		&__content
@@ -307,9 +307,12 @@
 		padding: 30px
 		max-width: 450px
 
-	
-
 @media only screen and (max-width: 992px)
+	header
+		position: relative
+		z-index: 10
+		
+
 	.navbar-menu
 		position: fixed
 		right: -100%
@@ -356,9 +359,7 @@
 		min-width: auto
 		max-width: 250px
 
-	header
-		position: relative
-		z-index: 5
+	
 
 	.home-box
 		font-size: 30px
@@ -381,7 +382,7 @@
 					text-align: center
 		.phone
 			font-size: 24px
-			margin: 0 auto 10px		
+			margin: 0 auto 10px
 
 	.where-to-sell-tires .text-description
 		max-width: none
@@ -528,6 +529,7 @@
 			width: 100%
 
 @media only screen and (max-width: 768px)
+
 	.export-box
 		width: 100%
 
@@ -559,6 +561,17 @@
 		font-size: 24px
 
 @media only screen and (max-width: 576px)
+	header
+		position: fixed
+		top: 0
+		left: 0
+		width: 100%
+		z-index: 10
+		background: #fff
+
+	body
+		padding: 110px 0 0
+
 	.home-box
 		font-size: 24px
 		margin: 0 0 20px
@@ -570,12 +583,14 @@
 	.home-wrapper
 		padding: 20px
 		.phone
-			font-size: 18px
+			font-weight: 500
+			font-size: 22px
+			margin: 0 auto 10px	
 		&__callback
+			display: none
 			.form
 				input
 					font-size: 18px
-
 
 	.about-products-box
 		padding: 30px
